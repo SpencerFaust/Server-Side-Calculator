@@ -1,0 +1,24 @@
+#left {
+    float: left;
+    width: 60%
+}
+#right {
+    float: left;
+    width: 40%
+}
+.secondCalcNumber {
+    width: 41px;
+}
+#clearToo {
+    width: 41px;
+}
+.operator {
+    width: 30px;
+}
+#equalsToo {
+    width: 165px;
+    height: 20px;
+}
+#disabledInput {
+    width: 159px;
+}

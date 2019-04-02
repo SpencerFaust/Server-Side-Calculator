@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="JQuery.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <title>JQuery Server Side Calculator</title>
+</head>
+<body>
+    <div id="left">
+        <div>
+            <h1>JQuery Server Side Calculator</h1>
+            <input type="number" placeholder="First Number" class="numberInput" id="numberOne" />
+            <button class="action" id="plus" value=+>+</button>
+            <button class="action" id="minus" value=->-</button>
+            <button class="action" id="multiply" value=*>*</button>
+            <button class="action" id="divide" value='/'>/</button>
+            <input type="number" placeholder="Second Number" class="numberInput" id="numberTwo" />
+            <button id="equals">=</button>
+            <button id="clear">C</button>
+        </div>
+        <div id="thisAnswer">
+            <!-- Append the most recent answer here -->
+        </div>
+        <div>
+            <ul id="previousProblems">
+                <!-- Append the previous answers here -->
+            </ul>
+        </div>
+    </div>
+        <div id="right">
+            <h1>Punch Calculator</h1>
+    <div id="rightToo"> 
+        <div>
+            <input placeholder="" disabled id="disabledInput"/>
+        </div>
+        <div>
+            <div>
+                <button class="secondCalcNumber" id="one" value="1">1</button>
+                <button class="secondCalcNumber" id="two" value="2">2</button>
+                <button class="secondCalcNumber" id="three" value="3">3</button>
+                <button class="operator" id="plusCalc" value="+">+</button>
+            </div>  
+            <div>
+                <button class="secondCalcNumber" id="four" value="4">4</button>
+                <button class="secondCalcNumber" id="five" value="5">5</button>
+                <button class="secondCalcNumber" id="six" value="6">6</button>
+                <button class="operator" id="minusCalc" value="-">-</button>
+            </div>  
+            <div>
+                <button class="secondCalcNumber" id="seven" value="7">7</button>
+                <button class="secondCalcNumber" id="eight" value="8">8</button>
+                <button class="secondCalcNumber" id="nine" value="9">9</button>
+                <button class="operator" id="multiplyCalc" value="*">*</button>
+            </div>  
+            <div>
+                <button id="clearToo">C</button>
+                <button class="secondCalcNumber" id="zero" value="0">0</button>
+                <button class="secondCalcNumber" id="decimal" value=".">.</button>
+                <button class="operator" id="divideCalc" value="/">/</button>
+            </div>  
+        </div>  
+        </div> 
+            <div>
+                <button id="equalsToo">=</button>
+            </div>  
+            <div id="firstInput">
+                    <!-- Append the first input here -->
+            </div>
+            <br>
+            <div id="secondAnswer">
+                    <!-- Append the button calculator answer here -->
+            </div>
+            <ul id="secondList"> 
+                <!-- Append second list of problems here -->
+            </ul>
+        </div>
+
+</body>
+</html>
