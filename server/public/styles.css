@@ -1,3 +1,6 @@
+html {
+    background-color: aquamarine;
+}
 #left {
     float: left;
     width: 60%
