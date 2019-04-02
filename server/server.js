@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-let PORT = 5000;
+let PORT = process.env.PORT || 5000;
 
 let problemRoute = require('./modules/problem-list');
 let secondProbRoute = require('./modules/second-problem-list')
