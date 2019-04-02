@@ -1,15 +1,9 @@
 html {
     background-color: aquamarine;
 }
-#center {
-    margin: auto;
-    width: 90%;
-    border: 2px solid black;
-    padding: 10px;
-}
 #left {
     float: left;
-    width: 40%
+    width: 60%
 }
 #right {
     float: left;
